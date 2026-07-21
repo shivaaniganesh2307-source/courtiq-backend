@@ -16,7 +16,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:8081", "https://courtiq-frontend-bd1uzyzc9-shivaaniganesh2307-8957s-projects.vercel.app/"] # React web + Expo
+    allow_origins=["http://localhost:3000", "http://localhost:8081", "https://courtiq-frontend-bd1uzyzc9-shivaaniganesh2307-8957s-projects.vercel.app,"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
